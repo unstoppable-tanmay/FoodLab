@@ -18,10 +18,21 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+}
+
+
+.bg-image {
+  background-image: url(../static/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.avif);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.back {
+  background-image: url(../static/bleached-wood-textured-design-background_53876-160561.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+
 }
