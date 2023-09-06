@@ -23,16 +23,63 @@ body {
       rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
 }
 
-
-.bg-image {
-  background-image: url(../static/food-background-menu-with-spices-culinary-ingredients-dark-stone-background-cooking-concepts-culinary-background-top-view-free-space-your-text_234595-2347.avif);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .back {
-  background-image: url(../static/bleached-wood-textured-design-background_53876-160561.avif);
+  background-image: url(../static/back.avif);
   background-repeat: no-repeat;
   background-size: cover;
+}
 
+.table-back {
+  background-image: url(../static/table.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.circle {
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 25%;
+  height: 25%;
+  margin: -12%;
+  background-image: url(../static/rotate/Food-Plate-Healthy-PNG.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 51%;
+  cursor: pointer;
+}
+
+.deg-0 {
+  transform: translate(140%)
+}
+
+.deg-45 {
+  transform: rotate(46deg) translate(140%) rotate(-46deg);
+}
+
+.deg-90 {
+  transform: rotate(91deg) translate(140%) rotate(-91deg);
+}
+
+.deg-135 {
+  transform: rotate(136deg) translate(140%) rotate(-136deg);
+}
+
+.deg-180 {
+  transform: rotate(181deg) translate(140%) rotate(-181deg);
+}
+
+.deg-225 {
+  transform: rotate(226deg) translate(140%) rotate(-226deg);
+}
+
+.deg-270 {
+  transform: rotate(271deg) translate(140%) rotate(-271deg);
+}
+
+.deg-315 {
+  transform: rotate(316deg) translate(140%) rotate(-316deg);
 }

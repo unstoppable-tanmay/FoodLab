@@ -9,7 +9,6 @@ import pasty from "../app/static/rotate/KFC-Food-Plate-Top-View-PNG.png";
 
 import { gsap } from "gsap";
 import { Draggable } from "gsap/Draggable";
-
 gsap.registerPlugin(Draggable);
 
 const RotateComponent = () => {
